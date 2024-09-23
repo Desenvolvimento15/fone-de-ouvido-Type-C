@@ -303,7 +303,7 @@
 
     .slider-container {
         position: relative;
-        max-width: 800px;
+        max-width: 1000px;
         margin: auto;
     }
     
@@ -323,7 +323,7 @@
         top: 50%;
         width: auto;
         padding: 10px 20px;
-        margin-top: -22px;
+
         color: black;
         font-weight: bold;
         font-size: 18px;
@@ -339,7 +339,9 @@
     }
     
     .prev {
-        left: 0;
+        right: 0;
+        top: 18rem;
+        width: 7.5rem;
     }
     
     .prev:hover, .next:hover {
