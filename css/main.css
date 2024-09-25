@@ -364,6 +364,37 @@
     .img-mob{display: block;}
 
     /***************************** Grid ************************************/
+    .prev {
+        right: 0 !important;
+        top: 4rem !important; 
+        width: 9.5rem !important;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        width: 10rem;
+        padding: 10px 20px;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 20px;
+        background-color: white;
+        border: 2px solid black;
+        user-select: none;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
 
     .grid-title {
     position: absolute;
